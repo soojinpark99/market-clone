@@ -4,7 +4,7 @@ main {
 
 .item-list {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   border-bottom: 1px solid #ededef;
   padding: 20px 0 20px 0;
