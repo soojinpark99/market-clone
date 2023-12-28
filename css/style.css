@@ -8,7 +8,7 @@ body {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -19,8 +19,8 @@ body {
   background-color: coral;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
