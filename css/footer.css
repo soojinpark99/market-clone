@@ -9,14 +9,31 @@ footer {
 
 .footer-block {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 0 20px 0 20px;
   padding-bottom: 30px;
 }
 
 .footer-icons img {
   width: 30px;
+}
+
+/* 아이콘 애니메이션 효과 */
+
+@keyframes icons-dongdong {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icons img:hover {
+  animation: 0.7s icons-dongdong;
 }
 
 .footer-icons {
