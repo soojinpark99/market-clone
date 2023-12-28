@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+
+body {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.media-info-msg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+}
+
+@media screen and (max-width: 380px) {
+  .media-info-msg {
+    opacity: 0;
+  }
+}
