@@ -32,7 +32,7 @@ footer {
   }
 }
 
-.footer-icons img:hover {
+.footer-icons:hover img {
   animation: 0.7s icons-dongdong;
 }
 
